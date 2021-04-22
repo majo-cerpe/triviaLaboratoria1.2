@@ -1,6 +1,6 @@
 ## Proyecto Trivia Laboratoria "¿Cuánto crees saber de cine y música?"
 
-[Lin a nuestro Demo] (https://majo-cerpe.github.io/triviaLaboratoria1.2/)
+[Linka hacia nuestro Demo] (https://majo-cerpe.github.io/triviaLaboratoria1.2/)
 
 
 ### 1.- Comenzando 
