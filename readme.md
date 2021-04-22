@@ -1,10 +1,10 @@
-## Proyecto Trivia Laboratoria "¿Cuánto crees conocer de cine y música?"
+## Proyecto Trivia Laboratoria "¿Cuánto crees saber de cine y música?"
 
 
 ### 1.- Comenzando 
 
 
-Comenzamos a estructurar el prototipo cada una, a modo de conocer nuestras impresiones a la forma en que imaginábamos nuestra trivia: “¿Cuánto crees conocer de cine y música?"
+Comenzamos a estructurar el prototipo cada una, a modo de conocer nuestras impresiones a la forma en que imaginábamos nuestra trivia: “¿Cuánto crees saber de cine y música?"
 
 
 IMAGENES DE LOS PROTOTIPOS
