@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>triviaMusica</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <br><br><br><br><br><br>
+  <div class='tittlePanel'>
+    <h1>Música</h1>
+  </div>
+  <br>
+  <div id='pregunta1' class='panel'>
+    <p>1.-¿Cuál fue la primera grabación de Rock and Roll?</p>
+    <label><input type="radio" name="question1" value="elvisPresley"> Una canción Elvis Presley</label><br>
+    <label><input type="radio" name="question1" value="littleRichard"> Una canción de Little Richard</label><br>
+    <label><input type="radio" name="question1" value="chuckBerry"> Una canción de Chuck Berry</label><br>
+    <br>
+  <button class="button" id="button1">Siguiente</button>
+  </div>
+
+  <div id='pregunta2' class='panel' hidden>
+    <p>2.-¿Cuándo nació el Rap</p>
+    <label><input type="radio" name="question2" value="5060"> Finales de los 50/principios de los 60</label><br>
+    <label><input type="radio" name="question2" value="6070"> Finales de los 60/principios de los 70</label><br>
+    <label><input type="radio" name="question2" value="7080"> Finales de los 70/principios de los 80</label><br>
+    <br>
+    <button class="button" id="button2">Siguiente</button>
+  </div>
+
+  <div id='pregunta3' class='panel' hidden>
+    <p>3.-Un reconocido actor de películas de terror puso la voz para el videoclip de "Thriller" de Michael Jackson ¿Quién fue?</p>
+    <label><input type="radio" name="question3" value="christopherLee"> Christopher Lee</label><br>
+    <label><input type="radio" name="question3" value="borisKarloff"> Boris Karloff</label><br>
+    <label><input type="radio" name="question3" value="vincentPrice"> Vincet Price</label> <br>
+    <br>
+    <button class="button" id="button3" onclick="getInputValue()">Quiero saber mi resultado</button>
+  </div>
+
+  <div id='results' class="panel" hidden>
+    <h1 id="results">¿Te gustaría volver a jugar?</h1>
+    <a href="../index.html"><button class="button">Volver a jugar desde el inicio</button></a>
+    <a href="music.html"><button class="button">Volver intentar "Música"</button></a>
+  </div>
+
+  <script src="../js/music.js"></script>
+</body>
+
+</html>

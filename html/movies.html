@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>triviaCine</title>
+  <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <br><br><br><br><br><br>
+  <div class='tittlePanel'>
+    <h1>Cine</h1>
+  </div>
+  <br>
+  <div id='pregunta1' class='panel'>
+    <p>1.-¿Quién fue el director de la película Pulp Fiction ?</p>
+    <label><input type="radio" name="question1" value="quentinTarantino"> Quentin Tarantino</label><br>
+    <label><input type="radio" name="question1" value="alPacino"> Al Pacino</label><br>
+    <label><input type="radio" name="question1" value="martinScorsese"> Martin Scorsese</label><br>
+    <br>
+    <button class="button" id="button1">Siguiente</button>
+  </div>
+
+  <div id='pregunta2' class='panel' hidden>
+    <p>2.-¿Qué film ganó el Oscar a mejor película en el 2019?</p>
+    <label><input type="radio" name="question2" value="parasite"> Parasite</label><br>
+    <label><input type="radio" name="question2" value="greenBook"> Green Book</label><br>
+    <label><input type="radio" name="question2" value="lalaland"> Lalaland</label><br>
+    <br>
+    <button class="button" id="button2">Siguiente</button>
+  </div>
+
+  <div id='pregunta3' class='panel' hidden>
+    <p>3.-¿En cuál de estas películas de Martin Scorsese no participa Joe Pesci?</p>
+    <label><input type="radio" name="question3" value="casino"> Casino</label><br>
+    <label><input type="radio" name="question3" value="buenosMuchachos"> Buenos Muchachos</label><br>
+    <label><input type="radio" name="question3" value="losInfiltrados"> Los infiltrados</label><br>
+    <br>
+    <button class="button" id="button3" onclick="getInputValue()">Quiero saber mi resultado</button>
+  </div>
+
+  <div id='results' class="panel" hidden>
+    <h1 id="results">¿Te gustaria volver a jugar?</h1>
+    <a href="../index.html"><button class="button">Volver a jugar</button></a><br>
+    <br>
+    <a href="movies.html"><button class="button">Volver intentar "Cine"</button></a>
+  </div>
+
+  <script src="../js/movies.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+body {
+    font-family: 'combo';
+    font-size: 18px;
+    text-align: center;
+    background-image: url("img/background6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.tittlePanel {
+  border: 1px solid;  
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  background-color: rgba(182, 168, 143, 0.8); /*al agregar un cuarto dígito (entre 0 y 1) al rgb el color se vuelve tráslúcido */
+  }
+
+.panel {
+border: 1px solid;  
+width: 500px;
+margin-right: auto;
+margin-left: auto;
+border-radius: 10px;
+padding-bottom: 20px;
+background-color: rgba(221, 219, 219, 0.8);
+}
+
+.input {
+  font-family: 'combo';
+}
+
+
+.button {
+  font-family: 'combo';
+  border-radius: 5px;
+}

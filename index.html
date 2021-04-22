@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Trivia</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <br><br><br><br><br><br>
+  <div id='welcome' class='tittlePanel'>
+    <h1>¡Bienvenido(a) a Trivia <br> ¿Cuánto crees saber sobre cine y música?</h1>
+    <h2>¿Cómo te llamas?:</h2>
+    <input type="text" id="nombre" placeholder="Ingresa tu nombre" class="input">
+    <button class="button" id="welcomeButton">Siguiente</button>
+  </div>
+
+  <div id='topic' class='tittlePanel' hidden>
+    <h1 <center>Escoge un tema para comenzar</center></h1>
+    <div>
+      <a href="html/music.html"><button class="button">Música</button></a>
+      <a href="html/movies.html"><button class="button">Cine</button> </a>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
