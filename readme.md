@@ -1,4 +1,4 @@
-## Proyecto Trivia Laboratoria "NOMBRE TRIVIA"
+## Proyecto Trivia Laboratoria "¿Cuánto crees conocer de cine y música?"
 
 
 ### 1.- Comenzando 
